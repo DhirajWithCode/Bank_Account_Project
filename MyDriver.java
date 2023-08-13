@@ -9,16 +9,15 @@ public class MyDriver
     {
 		Scanner sc= new Scanner(System.in);
 		String bankName = "State Bank Of India";
-	    String branchName ="Shivajinagr,PUNE";
+	        String branchName ="Shivajinagr,PUNE";
 		String add ="near M.N.P.";
 		MyBank b = new MyBank(bankName,branchName, add);
 		
 		System.out.println("***** WELCOME *****");
+	    
 		System.out.println();
 		System.out.println("BANK NAME :"+bankName);
-		
 		System.out.println("BRANCH NAME :"+branchName);
-		
 		System.out.println("Address :"+add);
 		System.out.println();
 		System.out.println("Select From Below Option");
